@@ -16,6 +16,18 @@ const Deck = function () {
   }
 
   console.log(this);
+
+  const randomNum = function (min, max) {
+    return Math.floor(Math.random() * (max - min ));
+    console.log(min);
+  }
+
+  const Shuffle = function (deck) {
+    temp = [];
+    for(i = 0; i < deck.length; i++) {
+      
+    }
+  }
 }
 
 const main = () => {
